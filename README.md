@@ -12,4 +12,7 @@ Demo project to manage AWS EC2 instances snapshop
 
 	## Running
 	
-		'pipenv run python shotty/shotty.py'
+		'pipenv run python shotty/shotty.py <command> <--project=PROJECT>'
+		
+		*command* is list , start, or stop
+		*project* is optional
